@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exped"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:text="expediteur"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:text="date reception"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:text="message"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:maxEms="15"
+        android:maxLines="1"
+        />
+
+</RelativeLayout>
